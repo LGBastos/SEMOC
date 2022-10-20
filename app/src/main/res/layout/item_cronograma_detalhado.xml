@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/cronograma_detail_dia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:fontFamily="sans-serif-black"
+        android:text="19/10"
+        android:textColor="#FD0056"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/cronograma_detail_titulo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center_horizontal"
+        android:text="Abertura"
+        android:textColor="#03A9F4"
+        android:textSize="22dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cronograma_detail_dia" />
+
+    <TextView
+        android:id="@+id/cronograma_detail_horario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="18:30 às 21h"
+        android:textColor="#FFC107"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cronograma_detail_titulo" />
+
+    <TextView
+        android:id="@+id/cronograma_detail_texto"
+        android:layout_width="291dp"
+        android:layout_height="wrap_content"
+        android:text="Profa. Dra. Roberta Gontijo - Reitora Prof. Dr. Deivid Carvalho Lorenzo - Pró Reitor de Graduação Profa. Dra. Silvana Sá de Carvalho CONFERÊNCIA DE ABERTURA Profa. Dra. Theresinha Guimarães Miranda (UFBA) Prof. Dr. João Danilo Batista de Oliveira (UNEB e CEE-BA) Alexandre Carvalho Baroni (SJDHDS-BA) Moderação: Matheus Martins de Oliveira (UCSAL e OAB-BA)"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cronograma_detail_horario"
+        app:layout_constraintVertical_bias="0.109" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cronograma_detail_local"
+        app:srcCompat="@drawable/semoc" />
+
+    <TextView
+        android:id="@+id/cronograma_detail_local"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center_horizontal"
+        android:text="Local"
+        android:textColor="#51B80F"
+        android:textSize="27dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cronograma_detail_texto" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
