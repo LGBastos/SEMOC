@@ -8,7 +8,7 @@ import mobile.com.ucsal.semoc.model.ItemCronograma;
 public class MesaRedondaDAO extends MasterDAO implements Serializable {
     public MesaRedondaDAO() {
         this.lista =  Arrays.asList(new ItemCronograma("18h30 às 21h", "17/10",
-                        "ABERTURA\n"
+                        "ABERTURA"
                         ,"Profa. Dra. Roberta Gontijo - Reitora\n" +
                         "Prof. Dr. Deivid Carvalho Lorenzo - Pró Reitor de Graduação\n" +
                         "Profa. Dra. Silvana Sá de Carvalho\n\n" +
@@ -19,7 +19,7 @@ public class MesaRedondaDAO extends MasterDAO implements Serializable {
                         "Moderação: Matheus Martins de Oliveira (UCSAL e OAB-BA)","AUDITÓRIO TÉRREO - BLOCO A"),
                 new ItemCronograma("09h30 às 12h",
                         "18/10",
-                        "EIXO 2: DIVERSIDADE, ALTERIDADE E EDUCAÇÃO INCLUSIVA\n",
+                        "EIXO 2: DIVERSIDADE, ALTERIDADE E EDUCAÇÃO INCLUSIVA",
                         "Mesa-redonda: A Jurisdição Constitucional e a Defesa das Constituições Normativas\n" +
                                 "Coordenação: Prof. Dr. Dirley da Cunha Júnior (UCSAL)\n" +
                                 "Participantes:\n" +
@@ -60,7 +60,7 @@ public class MesaRedondaDAO extends MasterDAO implements Serializable {
                 new ItemCronograma(
                         "14h às 16h30",
                         "18/10",
-                        "EIXO 4 : EDUCAÇÃO BIOÉTICA E DIREITO UNIVERSAL À VIDA\n",
+                        "EIXO 4 : EDUCAÇÃO BIOÉTICA E DIREITO UNIVERSAL À VIDA",
                         "Mesa redonda: O Olhar na História para Identificar os Caminhos da Ciência\n" +
                                 "Coordenação: Profa. Dra. Kátia Oliver de Sá (UCSAL)\n" +
                                 "Participantes:\n" +
@@ -93,7 +93,7 @@ public class MesaRedondaDAO extends MasterDAO implements Serializable {
                 new ItemCronograma(
                         "18h30 às 21h",
                         "18/10",
-                        "EIXO 2 - DIVERSIDADE, ALTERIDADE E EDUCAÇÃO INCLUSIVA\n",
+                        "EIXO 2 - DIVERSIDADE, ALTERIDADE E EDUCAÇÃO INCLUSIVA",
                         "Mesa-redonda: Instrumentos democráticos por uma educação inclusiva e efetiva\n" +
                                 "Coordenação: Claudio Queiroz (UCSAL)\n" +
                                 "Participantes:\n" +
@@ -107,8 +107,8 @@ public class MesaRedondaDAO extends MasterDAO implements Serializable {
                 new ItemCronograma(
                         "18h30 às 21h",
                         "18/10",
-                        "EIXO 1: RACISMO AMBIENTAL, REFUGIADOS AMBIENTAIS, POLÍTICAS PÚBLICAS E\n" +
-                                "INCLUSÃO SOCIAL\n",
+                        "EIXO 1: RACISMO AMBIENTAL, REFUGIADOS AMBIENTAIS, POLÍTICAS PÚBLICAS E " +
+                                "INCLUSÃO SOCIAL",
                         "Mesa-redonda: Instrumentos democráticos por uma educação inclusiva e efetiva\n" +
                                 "Coordenação: Claudio Queiroz (UCSAL)\n" +
                                 "Participantes:\n" +
@@ -244,8 +244,8 @@ public class MesaRedondaDAO extends MasterDAO implements Serializable {
                 new ItemCronograma(
                         "09h30 ás 12h",
                         "20/10",
-                        "EIXO 1 - RACISMO AMBIENTAL, REFUGIADOS AMBIENTAIS, POLÍTICAS PÚBLICAS E\n" +
-                                "INCLUSÃO SOCIAL\n",
+                        "EIXO 1 - RACISMO AMBIENTAL, REFUGIADOS AMBIENTAIS, POLÍTICAS PÚBLICAS E " +
+                                "INCLUSÃO SOCIAL",
                         "Mesa redonda: Racismo Ambiental, Refugiados Ambientais, Políticas Públicas e\n" +
                                 "Inclusão Social\n" +
                                 "Coordenação: Profa. Dra. Julie Sarah Lourau Alves da Silva (UCSAL)\n" +
@@ -273,7 +273,7 @@ public class MesaRedondaDAO extends MasterDAO implements Serializable {
                 new ItemCronograma(
                         "18h30 às 21h",
                         "20/10",
-                        "EIXO 1: RACISMO AMBIENTAL, REFUGIADOS AMBIENTAIS, POLÍTICAS PÚBLICAS E\n" +
+                        "EIXO 1: RACISMO AMBIENTAL, REFUGIADOS AMBIENTAIS, POLÍTICAS PÚBLICAS E " +
                                 "INCLUSÃO SOCIAL",
                         "Mesa-redonda: Constituição, Política e Instituições Judiciais\n" +
                                 "Coordenação: Prof. Dr. Alexandre Douglas Zaidan (UCSAL)\n" +
