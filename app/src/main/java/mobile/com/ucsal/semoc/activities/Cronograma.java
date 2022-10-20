@@ -1,4 +1,4 @@
-package mobile.com.ucsal.semoc;
+package mobile.com.ucsal.semoc.activities;
 
 import android.os.Bundle;
 
@@ -9,10 +9,11 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
 
+import mobile.com.ucsal.semoc.R;
 import mobile.com.ucsal.semoc.adapter.CronogramaAdapter;
 import mobile.com.ucsal.semoc.model.ItemCronograma;
 
-public class Cronograma extends AppCompatActivity {
+public class Cronograma extends ActivitiesMenu {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

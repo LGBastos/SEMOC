@@ -1,4 +1,4 @@
-package mobile.com.ucsal.semoc;
+package mobile.com.ucsal.semoc.activities;
 
 import android.os.Bundle;
 
@@ -8,9 +8,10 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import mobile.com.ucsal.semoc.DAO.LancamentoLivrosDAO;
+import mobile.com.ucsal.semoc.R;
 import mobile.com.ucsal.semoc.adapter.LivroAdapter;
 
-public class LancamentoLivros extends AppCompatActivity {
+public class LancamentoLivros extends ActivitiesMenu {
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {

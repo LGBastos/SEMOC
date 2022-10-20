@@ -11,7 +11,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
 
-import mobile.com.ucsal.semoc.Details;
+import mobile.com.ucsal.semoc.activities.Details;
 import mobile.com.ucsal.semoc.model.ItemCronograma;
 import mobile.com.ucsal.semoc.R;
 

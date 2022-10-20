@@ -9,11 +9,9 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import java.io.Serializable;
 import java.util.List;
 
-import mobile.com.ucsal.semoc.DetailLivro;
-import mobile.com.ucsal.semoc.Details;
+import mobile.com.ucsal.semoc.activities.DetailLivro;
 import mobile.com.ucsal.semoc.R;
 import mobile.com.ucsal.semoc.model.ItemLivro;
 

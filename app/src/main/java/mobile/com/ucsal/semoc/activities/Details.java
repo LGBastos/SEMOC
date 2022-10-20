@@ -1,4 +1,4 @@
-package mobile.com.ucsal.semoc;
+package mobile.com.ucsal.semoc.activities;
 
 import android.os.Bundle;
 import android.widget.TextView;
@@ -6,9 +6,10 @@ import android.widget.TextView;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
+import mobile.com.ucsal.semoc.R;
 import mobile.com.ucsal.semoc.model.ItemCronograma;
 
-public class Details extends AppCompatActivity {
+public class Details extends ActivitiesMenu {
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {

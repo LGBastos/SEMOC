@@ -1,4 +1,4 @@
-package mobile.com.ucsal.semoc;
+package mobile.com.ucsal.semoc.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -11,13 +11,13 @@ import java.util.List;
 
 import mobile.com.ucsal.semoc.DAO.BatePapoDAO;
 import mobile.com.ucsal.semoc.DAO.JornadaPesquisaDAO;
-import mobile.com.ucsal.semoc.DAO.LancamentoLivrosDAO;
 import mobile.com.ucsal.semoc.DAO.MesaRedondaDAO;
 import mobile.com.ucsal.semoc.DAO.SemocJovemDAO;
 import mobile.com.ucsal.semoc.DAO.SessoesCientificasDAO;
+import mobile.com.ucsal.semoc.R;
 import mobile.com.ucsal.semoc.model.ItemCronograma;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends ActivitiesMenu {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

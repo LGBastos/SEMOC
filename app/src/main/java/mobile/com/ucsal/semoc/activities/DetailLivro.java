@@ -1,4 +1,4 @@
-package mobile.com.ucsal.semoc;
+package mobile.com.ucsal.semoc.activities;
 
 import android.os.Bundle;
 import android.widget.TextView;
@@ -8,9 +8,10 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import java.io.Serializable;
 
+import mobile.com.ucsal.semoc.R;
 import mobile.com.ucsal.semoc.model.ItemLivro;
 
-public class DetailLivro extends AppCompatActivity {
+public class DetailLivro extends ActivitiesMenu {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
